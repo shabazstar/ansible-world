@@ -17,7 +17,7 @@ sudo su
 useradd -m ansible
 passwd ansible
 echo "ansible ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/ansible
-user sudo su - ansible  (In controller we need ro add ansible)
+user sudo su - ansible  (In controller we need ro add ansible user)
 
 
 STEP2- Switch to ansible user
